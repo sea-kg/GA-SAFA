@@ -10,6 +10,7 @@ a genetic algorithm to search for the approximating function signal
 - data (TEXT)
 - size (INT)
 - freq (FLOAT)
+- state (varchar)
 - dt_created
 
 ## Table 'approx_funcs'
@@ -18,8 +19,16 @@ a genetic algorithm to search for the approximating function signal
 - signalid (INT link to signals)
 - funcs (TEXT)
 - diff_value (INT)
+- state (varchar)
 - dt_created
 
+## Table 'approx_funcs_init_vector'
+
+- id (AI INT)
+- signalid (INT link to signals)
+- funcs (TEXT)
+- diff_value (INT)
+- dt_created
 
 # API
 

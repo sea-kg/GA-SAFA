@@ -2,6 +2,14 @@
 a genetic algorithm to search for the approximating function signal
 
 
+# web-site
+- subscription
+- sign in
+- contacts
+- description
+- plan start
+
+
 # Database
 
 ## Table 'signals'
@@ -10,7 +18,7 @@ a genetic algorithm to search for the approximating function signal
 - data (TEXT)
 - size (INT)
 - freq (FLOAT)
-- state (varchar)
+- state (varchar) (ok, processing, todo)
 - dt_created
 
 ## Table 'approx_funcs'
@@ -26,6 +34,7 @@ a genetic algorithm to search for the approximating function signal
 
 - id (AI INT)
 - signalid (INT link to signals)
+- name (VARCHAR)
 - funcs (TEXT)
 - diff_value (INT)
 - dt_created

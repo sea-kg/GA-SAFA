@@ -29,3 +29,6 @@
 
 # temporary files
 *~
+
+# config files
+www/config.php

@@ -28,16 +28,8 @@ a genetic algorithm to search for the approximating function signal
 - funcs (TEXT)
 - diff_value (INT)
 - state (varchar)
-- dt_created
-
-## Table 'approx_funcs_init_vector'
-
-- id (AI INT)
-- signalid (INT link to signals)
-- name (VARCHAR)
-- funcs (TEXT)
-- diff_value (INT)
-- dt_created
+- type (varchar) (init vector, other)
+- created
 
 # API
 
